@@ -400,7 +400,7 @@ main {
 /* ----- Menu Button -----*/
 /* --------------------------------- */
 
-.menu-btn-container {
+/* .menu-btn-container {
   position: relative;
   width: 100%;
   top: var(--gutter-x-small);
@@ -425,13 +425,13 @@ main {
 .nav-items a {
   font-stretch: 125%;
   font-weight: 900;
-}
+} */
 
 /* --------------------------------- */
 /* ----- Navigation -----*/
 /* --------------------------------- */
 
-.nav {
+/* .nav {
   min-block-size: 100vh;
   position: fixed;
   width: 100%;
@@ -474,7 +474,7 @@ main {
 .nav-item a:hover::after,
 .nav-item a:focus::after {
   transform: scale(1);
-}
+} */
 
 /* --------------------------------- */
 /* ----- Header -----*/
@@ -501,7 +501,7 @@ body.light .header {
 
 .header-textbox {
   position: absolute;
-  top: 50%;
+  top: 42%;
   transform: translateY(-50%);
 }
 

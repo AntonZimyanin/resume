@@ -69,6 +69,7 @@
     />
 
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css">
     <script src="script.js" defer></script>
 
     <!-- Your name here -->
@@ -84,20 +85,30 @@
 
     <header class="header"> 
 
-      <div class="menu-btn-container">
+
+      <nav class="navMenu">
+        <a href="#">Trusted by</a>
+        <a href="#work">Selected Work</a>
+        <a href="#blog">My Articles</a>
+        <a href="#Testimonials">Testimonials</a>
+        <a href="#contact">Send Message</a>
+        <div class="dot"></div>
+      </nav>
+
+      <div class="menu-btn-container" style="display: none;">
         <div class="container">
-          <button type="button" class="menu-btn">menu</button>
+          <button type="" class="menu-btn" style="background-color: black;"></button>
         </div>
       </div>
 
-      <nav class="nav hidden">
+      <nav class="nav hidden" >
         <ol class="nav-items">
-          <li class="nav-item"><a href="#">Home</a></li>
-          <li class="nav-item"><a href="#work">My Work</a></li>
-          <li class="nav-item"><a href="#blog">See Blog</a></li>
-          <li class="nav-item"><a href="#skills">My Skills</a></li>
+          <li class="nav-item"><a href="#"></a></li>
+          <li class="nav-item"><a href="#work"></a></li>
+          <li class="nav-item"><a href="#blog"></a></li>
+          <li class="nav-item"><a href="#skills"></a></li>
           <li class="nav-item">
-            <a href="#contact" data-focused="last-focused">Contact</a>
+            <a href="#contact" data-focused="last-focused"></a>
           </li>
         </ol>
       </nav>
@@ -496,7 +507,7 @@
       <!-- Replace testimonials, author name, author job, img src and, alt attributes -->
 
       <section>
-        <h2 class="h2">Testimonials</h2>
+        <h2 class="h2" id="Testimonials">Testimonials</h2>
         <div class="container">
           <ol class="testimonials">
             <li class="testimonial">
