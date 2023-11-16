@@ -4,8 +4,8 @@
 
 @font-face {
   font-family: "Mona Sans";
-  src: url("assets/fonts/Mona-Sans.woff2") format("woff2 supports variations"),
-    url("assets/fonts/Mona-Sans.woff2") format("woff2-variations");
+  src: url("../assets/fonts/Mona-Sans.woff2") format("woff2 supports variations"),
+    url("../assets/fonts/Mona-Sans.woff2") format("woff2-variations");
   font-display: swap;
   font-weight: 200 900;
   font-stretch: 75% 125%;
@@ -491,12 +491,12 @@ main {
 
 body.dark .header {
   background-image: linear-gradient(#0000008b, #000000e6),
-    url("assets/images/hero-bg.webp");
+    url("../assets/images/hero-bg.webp");
 }
 
 body.light .header {
   background-image: linear-gradient(#ffffffa2, #ffffffe6),
-    url("assets/images/hero-bg-light.webp");
+    url("../assets/images/hero-bg-light.webp");
 }
 
 .header-textbox {
@@ -997,7 +997,7 @@ body.dark .work-links img {
 /* --------------------------------- */
 /* ----- Contact -----*/
 /* --------------------------------- */
-
+/* 
 .contact-content {
   display: grid;
   grid-template-columns: minmax(245px, 35%) 1fr;
@@ -1126,7 +1126,7 @@ body.light .signatures {
 
 .contact-form button[type="submit"] {
   border: none;
-}
+} */
 
 /* --------------------------------- */
 /* ----- Footer -----*/

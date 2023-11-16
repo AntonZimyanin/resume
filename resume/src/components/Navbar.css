@@ -4,7 +4,7 @@ html {
     scroll-behavior: smooth; /* свойство scroll-behavior не наследуется, применяется к прокручиваемым блокам */ 
   }
 
-.navMenu {
+.navbar {
   position: relative;
   padding-top: 10%;
   left: 55%;
@@ -12,7 +12,7 @@ html {
   transform: translate(-50%, -50%);
 }
 
-.navMenu a {
+.navbar a {
   color: #f6f4e6;
   text-decoration: none;
   font-size: 1em;
@@ -25,11 +25,11 @@ html {
   transition: all 0.2s ease-in-out;
 }
 
-.navMenu a:hover {
+.navbar a:hover {
   color: #fddb3a;
 }
 
-.navMenu .dot {
+.navbar .dot {
   width: 6px;
   height: 6px;
   background: #fddb3a;
@@ -41,7 +41,7 @@ html {
   transition: all 0.2s ease-in-out;
 }
 
-.navMenu a:nth-child(1):hover ~ .dot {
+.navbar a:nth-child(1):hover ~ .dot {
   -webkit-transform: translateX(60px);
   transform: translateX(60px);
   -webkit-transition: all 0.2s ease-in-out;
@@ -49,7 +49,7 @@ html {
   opacity: 1;
 }
 
-.navMenu a:nth-child(2):hover ~ .dot {
+.navbar a:nth-child(2):hover ~ .dot {
   -webkit-transform: translateX(355px);
   transform: translateX(355px);
   -webkit-transition: all 0.2s ease-in-out;
@@ -57,7 +57,7 @@ html {
   opacity: 1;
 }
 
-.navMenu a:nth-child(3):hover ~ .dot {
+.navbar a:nth-child(3):hover ~ .dot {
   -webkit-transform: translateX(605px);
   transform: translateX(605px);
   -webkit-transition: all 0.2s ease-in-out;
@@ -65,14 +65,14 @@ html {
   opacity: 1;
 }
 
-.navMenu a:nth-child(4):hover ~ .dot {
+.navbar a:nth-child(4):hover ~ .dot {
   -webkit-transform: translateX(875px);
   transform: translateX(875px);
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   opacity: 1;
 }
-.navMenu a:nth-child(5):hover ~ .dot {
+.navbar a:nth-child(5):hover ~ .dot {
     -webkit-transform: translateX(1147px);
     transform: translateX(1147px);
     -webkit-transition: all 0.2s ease-in-out;
